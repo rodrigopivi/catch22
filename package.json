@@ -1,0 +1,48 @@
+{
+    "name": "catch22",
+    "version": "0.0.1",
+    "description": "catch22 for nodejs",
+    "main": "index.js",
+    "type": "commonjs",
+    "types": "catch22.d.ts",
+    "scripts": {
+      "preinstall": "node check-build-tools.js",
+      "install": "node-gyp configure && node-gyp rebuild",
+      "build": "node-gyp rebuild",
+      "clean": "node-gyp clean",
+      "reset": "npm run clean & & npm run install",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "catch22",
+      "machine",
+      "learning",
+      "canonical",
+      "time-series",
+      "characteristics",
+      "time",
+      "series",
+      "sequential",
+      "analysis",
+      "finance",
+      "classification"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rodrigopivi/catch22"
+    },
+    "bugs": {
+      "url": "https://github.com/rodrigopivi/catch22/issues"
+    },
+    "engines": {
+      "node": ">=16"
+    },
+    "homepage": "https://github.com/rodrigopivi/catch22#readme",
+    "author": "https://github.com/DynamicsAndNeuralSystems",
+    "contributors": [
+      "Rodrigo P. (https://github.com/rodrigopivi)"
+    ],
+    "gypfile": true,
+    "license": "GPLv3"
+  }
+  

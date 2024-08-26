@@ -7,3 +7,5 @@
 *.vscode
 *.code-workspace
 */run_features
+node_modules
+build
